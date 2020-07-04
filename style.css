@@ -24,6 +24,7 @@
 }
 
 .left_nav > li {
-    
+    margin: 0;
+    list-style: none;
 }
 
