@@ -1,35 +1,69 @@
 html, body {
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: 0px;
 }
 
-.nav{
+.responsive {
+    padding: 0px;
+    margin: 0px;
     width: 100%;
-    height: 10%;
-    background-color:#fff;
+    height: auto;
 }
 
-.nav > h3 {
-    display: inline-block;
-    font-size: 30px;
-    margin: 20px;
+/*Nav bar CSS*/
+.nav{
+    display: inline-flex;
+    width: 100%;
+}
+
+/*Nav bar brand*/
+.brand {
+    display: inline-flex;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    width: 20%;
+    height: 100%;
+}
+
+/*Nav bar brand logo*/
+.logo {
+    display: inline;
+    width: 50%;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+/*Nav bar brand name CSS*/
+.label {
+    display: inline;
+    width: 50%;
+    font-size: 2em;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 0px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 0;
 }
 
 .ul_nav{
-    display: inline-block;
+    display: inline;
+    padding: 30px 20px 20px 20px;
+    margin: 0;
     list-style: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 20px;
 }
 
 .ul_nav > li {
-    display: inline-block;
+    display: inline;
     white-space: normal;
-    margin: 0 20px 0 0;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px;
 }
+/*End of Nav*/
 
+/*Left Nav CSS*/
 .left_nav {
     width: 20%;
     height: 87%;
@@ -38,22 +72,23 @@ html, body {
     padding: 10px;
 }
 
+/*Search bar with button CSS*/
 .search {
     width: 100%;
     height: 5%;
     padding: 2px;
     margin:0px 0px 20px 0px;
-    background-color: blue;
 }
 
 .search_field {
     width: 60%;
-    height: 100%;
+    height: 101%;
     margin: 0px 0px 0px 1px;
     padding: 0;
     outline: none;
     border: none;
     border-radius: 25px;
+    padding: 0px 5px 0px 5px;
 }
 
 .submit_btn {
@@ -63,14 +98,20 @@ html, body {
     padding: 0;
     outline: none;
     border: none;
+    font-size: large;
     border-radius: 25px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .ul_leftnav > li {
-    margin: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 0px 0px 0px 0px;
     list-style-type: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: x-large;
+    letter-spacing: 5px;
 }
-
+/*End of Left Nav CSS*/
